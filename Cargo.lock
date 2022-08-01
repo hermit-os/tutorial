@@ -217,18 +217,18 @@ dependencies = [
 
 [[package]]
 name = "hermit-abi"
-version = "0.2.3"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d37fb7dc756218a0559bfc21e4381f03cbb696cdaf959e7e95e927496f0564cd"
+checksum = "897cd85af6387be149f55acf168e41be176a02de7872403aaab184afc2f327e6"
 dependencies = [
  "libc",
 ]
 
 [[package]]
 name = "hermit-sys"
-version = "0.2.4"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ca1e24518f146a6c720973a169bb974ce1293b6411f3a210b232606679d37c23"
+checksum = "242e3a2a94303aceb40a220e49a2093c274592f705d570f7496265b540eb7807"
 dependencies = [
  "aarch64",
  "async-task",
@@ -236,9 +236,9 @@ dependencies = [
  "flate2",
  "futures-lite",
  "hermit-abi",
- "lazy_static",
  "libm",
  "log",
+ "once_cell",
  "rftrace",
  "smoltcp",
  "tar",
@@ -358,9 +358,9 @@ dependencies = [
 
 [[package]]
 name = "once_cell"
-version = "1.12.0"
+version = "1.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7709cef83f0c1f58f666e746a08b21e0085f7440fa6a29cc194d68aac97a4225"
+checksum = "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1"
 
 [[package]]
 name = "opaque-debug"
@@ -822,9 +822,9 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 
 [[package]]
 name = "x86"
-version = "0.49.0"
+version = "0.51.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae0df8874628b15fdefccbd5c6b06766ec9ec2d6cd30d6d2f82245343358c50a"
+checksum = "fa7477e4af519a58818c1f0ab4b149d0ce3304e625be8fe56c8484cac50b0532"
 dependencies = [
  "bit_field",
  "bitflags",
