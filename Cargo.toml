@@ -12,7 +12,7 @@ vfs = { version = "0.7", features = ["embedded-fs"] }
 rust-embed = { version = "6", features = ["debug-embed"] }
 
 [target.'cfg(target_os = "hermit")'.dependencies.hermit-sys]
-version = "0.2"
+version = "0.4"
 default-features = false
 
 [features]
