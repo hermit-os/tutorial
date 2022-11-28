@@ -8,7 +8,7 @@ publish = false
 [dependencies]
 tiny_http = "0.11"
 ascii = "1.0"
-vfs = { version = "0.7", features = ["embedded-fs"] }
+vfs = { version = "0.8", features = ["embedded-fs"] }
 rust-embed = { version = "6", features = ["debug-embed"] }
 
 [target.'cfg(target_os = "hermit")'.dependencies.hermit-sys]
